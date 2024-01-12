@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>About Boujee</title>
   </head>
   <body>
@@ -23,20 +23,20 @@
             <br/>
             <p> Boujee went through all the blood, sweat, and tears involved to rock these skills</p>
           </header>
-          <div class="flex wrap skills">
-            <div class="card">
+          <div class="container flex wrap skills">
+            <div class="row card">
               <img src="https://raw.githubusercontent.com/taniarascia/sandbox/master/portfolio/img/html.png" alt="">
               <h2>HTML</h2>
             </div>
-            <div class="card">
+            <div class="row card">
               <img src="https://github.com/taniarascia/sandbox/blob/master/portfolio/img/css.png?raw=true" alt="">
               <h2>CSS</h2>
             </div>
-            <div class="card">
+            <div class="row card">
               <img src="https://github.com/taniarascia/sandbox/blob/master/portfolio/img/js.png?raw=true" alt="">
               <h2>JavaScript</h2>
             </div>
-            <div class="card">
+            <div class="row card">
               <img src="https://github.com/BoujeeWhoCodes/my-first-repo/blob/main/bootsrap-logo.jpg?raw=true"alt="">
               <h2>Bootsrap</h2>
             </div>
@@ -90,18 +90,72 @@
             <h1>Portfolio</h1>
             <p> Just some picture on how Bougié will be in future. She fake it until she make it </p>
           </header>
-          <div class="container">
-            <div class="flex wrap portfolio">
-              <div class="card">
-                <img src="https://github.com/BoujeeWhoCodes/my-first-repo/blob/main/lady-boss-1.jpg?raw=true" alt="">
-                <h2>Forbes 30 under 30</h2>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="https://github.com/BoujeeWhoCodes/Advanced-BootsrapHW/blob/main/Bougi%C3%A9%20Co-Office.jpg?raw=true" 
+                  class="img-fluid rounded shadow-sm p-2 border"
+                />
               </div>
-              <div class="card">
-                <img src="https://github.com/BoujeeWhoCodes/my-first-repo/blob/main/ladies-gym.jpg?raw=true" alt="">
-                <h2>GymHub</h2>
+              <div class="col">
+                <div class="card border border-0" style="">
+                  <div class="card-body">
+                    <h2 class="card-title">Bougié Co-Office</h2>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                   
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <br>
+          <br>
+          <div class="col-md-6">
+            <img
+              src="https://github.com/BoujeeWhoCodes/Advanced-BootsrapHW/blob/main/Bougi%C3%A9-Forecast.jpg?raw=true"
+              class="img-fluid rounded shadow-sm p-2 border"
+            />
+          </div>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card border border-0" style="">
+                  <div class="card-body">
+                    <h2 class="card-title">Bougié Forecast</h2>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elite
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  src="https://github.com/BoujeeWhoCodes/Advanced-BootsrapHW/blob/main/Gym-Neutron.jpg?raw=true"
+                  class="img-fluid rounded shadow-sm p-2 border"
+                />
+              </div>
+              <div class="col">
+                <div class="card border border-0" style="">
+                  <div class="card-body">
+                    <h2 class="card-title">Gym-Neutron</h2>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
         </section>
         <br/>
 
@@ -109,6 +163,9 @@
       <h2 class="contact-about">📮 Contact </h2>
       <a href="mailto:info.elvr@gmail.com" 
       class="email-link"> howdy@baddieintech.com </a>
+      <br>
+      <br>
     </div>
+
   </body>
 </html>
